@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ui自动化测试]">
+  <parameter name="HTMLReporterFile" value="F:\webauto\target\surefire-reports"/>
+  <parameter name="host" value="http://localhost"/>
+  <parameter name="driverName" value="chrome"/>
+  <listeners>
+    <listener class-name="pojo.CustomListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="loginCase(failed)">
+    <classes>
+      <class name="testCase.loginCase">
+        <methods>
+          <include name="loginTrue" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="login" invocation-numbers="3 4"/>
+        </methods>
+      </class> <!-- testCase.loginCase -->
+    </classes>
+  </test> <!-- loginCase(failed) -->
+</suite> <!-- Failed suite [ui自动化测试] -->

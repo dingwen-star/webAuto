@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ui自动化测试">
+    <!--测试集模块-->
+    <test name= "loginCase">
+        <classes>
+            <class name="testCase.loginCase"/>
+        </classes>
+    </test>
+    <parameter name="driverName" value="chrome"></parameter>
+    <!--报告生成路径-->
+    <parameter name="HTMLReporterFile" value="F:\webauto\target\surefire-reports"></parameter>
+    <!--报告替换路径-->
+    <parameter name="host" value="http://localhost"></parameter>
+    <!--配置监听器-->
+    <listeners>
+        <!--实现一个监听器，监听用例执行情况-->
+        <listener class-name="pojo.CustomListener"></listener>
+        <!--reportng报表生成-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+    </listeners>
+</suite>

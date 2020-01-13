@@ -1,0 +1,6 @@
+<pages>
+    <Page page = "登录页面">
+        <UIElement keyword="用户名" by="name" value="username"/>
+        <UIElement keyword="密码" by="name" value="password"/>
+    </Page>
+</pages>

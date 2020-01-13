@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="3" name="TestSuite" time="42.236" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\webauto"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="F:\webauto"/>
+    <property name="java.endorsed.dirs" value="E:\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="F:\webauto\target\surefire\surefirebooter1970367787191529539.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Java\jdk1.8.0_211\bin;D:\apache-maven-3.6.2\bin;D:\Git\cmd;E:\Java\jre1.80-211\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Fiddler;D:\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;C:\Users\Administrator\AppData\Local\BypassRuntm;."/>
+    <property name="surefire.test.class.path" value="F:\webauto\target\test-classes;F:\webauto\target\classes;D:\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;D:\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\repository\org\apache\poi\poi\3.17\poi-3.17.jar;D:\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;D:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;D:\repository\velocity\velocity\1.4\velocity-1.4.jar;D:\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\repository\com\google\inject\guice\3.0\guice-3.0.jar;D:\repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\repository\com\beust\jcommander\1.69\jcommander-1.69.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="F:\webauto\target\test-classes;F:\webauto\target\classes;D:\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;D:\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\repository\org\apache\poi\poi\3.17\poi-3.17.jar;D:\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;D:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;D:\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;D:\repository\velocity\velocity\1.4\velocity-1.4.jar;D:\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\repository\com\google\inject\guice\3.0\guice-3.0.jar;D:\repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\repository\com\beust\jcommander\1.69\jcommander-1.69.jar;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="F:\webauto\target\surefire\surefirebooter1970367787191529539.jar F:\webauto\target\surefire\surefire873297817587822158tmp F:\webauto\target\surefire\surefire2219832775381431639tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="E:\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Java\jdk1.8.0_211\jre\lib\resources.jar;E:\Java\jdk1.8.0_211\jre\lib\rt.jar;E:\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;E:\Java\jdk1.8.0_211\jre\lib\jsse.jar;E:\Java\jdk1.8.0_211\jre\lib\jce.jar;E:\Java\jdk1.8.0_211\jre\lib\charsets.jar;E:\Java\jdk1.8.0_211\jre\lib\jfr.jar;E:\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="org.uncommons.reportng.escape-output" value="false"/>
+    <property name="localRepository" value="D:\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testCase.loginCase" name="login" time="1.087"/>
+  <testcase classname="testCase.loginCase" name="login" time="0.467"/>
+  <testcase classname="testCase.loginCase" name="login" time="0.418"/>
+  <testcase classname="testCase.loginCase" name="login" time="8.322">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+</failure>
+  </testcase>
+  <testcase classname="testCase.loginCase" name="login" time="8.334">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+</failure>
+  </testcase>
+  <testcase classname="testCase.loginCase" name="loginTrue" time="8.285">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.loginTrue(loginCase.java:48)
+</failure>
+  </testcase>
+</testsuite>

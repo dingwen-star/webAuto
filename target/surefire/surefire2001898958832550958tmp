@@ -1,0 +1,8 @@
+#surefire
+#Sat Jan 04 19:15:25 CST 2020
+org.uncommons.reportng.escape-output=false
+user.dir=F\:\\webauto
+maven.repo.local=D\:\\repository
+localRepository=D\:\\repository
+idea.version2019.2.3=true
+basedir=F\:\\webauto

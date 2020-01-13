@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 42.237 sec <<< FAILURE!
+login(testCase.loginCase)  Time elapsed: 8.322 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+
+login(testCase.loginCase)  Time elapsed: 8.334 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+
+loginTrue(testCase.loginCase)  Time elapsed: 8.284 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.loginTrue(loginCase.java:48)
+

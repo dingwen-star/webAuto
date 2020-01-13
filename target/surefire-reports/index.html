@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ui自动化测试">
+              <span class="suite-name border-failed">ui自动化测试</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ui自动化测试">
+                    <span>F:\webauto\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ui自动化测试">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ui自动化测试">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ui自动化测试">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ui自动化测试">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ui自动化测试">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ui自动化测试">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ui自动化测试" class="hide-methods failed suite-ui自动化测试"> (hide)</a> <!-- hide-methods failed suite-ui自动化测试 -->
+                      <a href="#" panel-name="suite-ui自动化测试" class="show-methods failed suite-ui自动化测试"> (show)</a> <!-- show-methods failed suite-ui自动化测试 -->
+                    </span>
+                    <div class="method-list-content failed suite-ui自动化测试">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="login(, , http://47.56.97.57:8098/#/login1)">login(, , http://47.56.97.57:8098/#/login1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="login(admin, 123456789, http://47.56.97.57:8098/#/login1)">login(admin, 123456789, http://47.56.97.57:8098/#/login1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)">loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ui自动化测试 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ui自动化测试" class="hide-methods passed suite-ui自动化测试"> (hide)</a> <!-- hide-methods passed suite-ui自动化测试 -->
+                      <a href="#" panel-name="suite-ui自动化测试" class="show-methods passed suite-ui自动化测试"> (show)</a> <!-- show-methods passed suite-ui自动化测试 -->
+                    </span>
+                    <div class="method-list-content passed suite-ui自动化测试">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="login(admin, , http://47.56.97.57:8098/#/login)">login(admin, , http://47.56.97.57:8098/#/login)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="login(admin1, 123456, http://47.56.97.57:8098/#/login)">login(admin1, 123456, http://47.56.97.57:8098/#/login)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ui自动化测试" title="testCase.loginCase" hash-for-method="login(, 123456, http://47.56.97.57:8098/#/login)">login(, 123456, http://47.56.97.57:8098/#/login)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ui自动化测试 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ui自动化测试" class="panel ui自动化测试">
+          <div class="suite-ui自动化测试-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCase.loginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, , http://47.56.97.57:8098/#/login1)">
+                  </a> <!-- login(, , http://47.56.97.57:8098/#/login1) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(, , http://47.56.97.57:8098/#/login1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(admin, 123456789, http://47.56.97.57:8098/#/login1)">
+                  </a> <!-- login(admin, 123456789, http://47.56.97.57:8098/#/login1) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(admin, 123456789, http://47.56.97.57:8098/#/login1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.login(loginCase.java:30)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)">
+                  </a> <!-- loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index) -->
+                  <span class="method-name">loginTrue</span>
+                  <span class="parameters">(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at util.Assertion.assertUrlContains(Assertion.java:27)
+	at testCase.loginCase.loginTrue(loginCase.java:48)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ui自动化测试-class-failed -->
+          <div class="suite-ui自动化测试-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.loginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(admin, , http://47.56.97.57:8098/#/login)">
+                  </a> <!-- login(admin, , http://47.56.97.57:8098/#/login) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(admin, , http://47.56.97.57:8098/#/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(admin1, 123456, http://47.56.97.57:8098/#/login)">
+                  </a> <!-- login(admin1, 123456, http://47.56.97.57:8098/#/login) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(admin1, 123456, http://47.56.97.57:8098/#/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, 123456, http://47.56.97.57:8098/#/login)">
+                  </a> <!-- login(, 123456, http://47.56.97.57:8098/#/login) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(, 123456, http://47.56.97.57:8098/#/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ui自动化测试-class-passed -->
+        </div> <!-- panel ui自动化测试 -->
+        <div panel-name="test-xml-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\webauto\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;ui自动化测试&quot;&gt;
+  &lt;parameter name=&quot;HTMLReporterFile&quot; value=&quot;F:\webauto\target\surefire-reports&quot;/&gt;
+  &lt;parameter name=&quot;host&quot; value=&quot;http://localhost&quot;/&gt;
+  &lt;parameter name=&quot;driverName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;pojo.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;loginCase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCase.loginCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginCase --&gt;
+&lt;/suite&gt; &lt;!-- ui自动化测试 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ui自动化测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">loginCase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ui自动化测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ui自动化测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ui自动化测试');
+function tableData_ui自动化测试() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'testCase.loginCase')
+data.setCell(0, 3, 8334);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'testCase.loginCase')
+data.setCell(1, 3, 8321);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTrue')
+data.setCell(2, 2, 'testCase.loginCase')
+data.setCell(2, 3, 8284);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'testCase.loginCase')
+data.setCell(3, 3, 1087);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'testCase.loginCase')
+data.setCell(4, 3, 467);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'testCase.loginCase')
+data.setCell(5, 3, 418);
+window.suiteTableData['ui自动化测试']= { tableData: data, tableDiv: 'times-div-ui自动化测试'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-ui自动化测试">
+              </div> <!-- times-div-ui自动化测试 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ui自动化测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src='http://localhost\screenshot\loginCase\2020-01-06\1578291382563.jpg'height='100' width='100'><a href='http://localhost\screenshot\loginCase\2020-01-06\1578291382563.jpg' target='_blank'>点击查看大图</a></img></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(, , http://47.56.97.57:8098/#/login1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src='http://localhost\screenshot\loginCase\2020-01-06\1578291372981.jpg'height='100' width='100'><a href='http://localhost\screenshot\loginCase\2020-01-06\1578291372981.jpg' target='_blank'>点击查看大图</a></img></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(admin, 123456789, http://47.56.97.57:8098/#/login1)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src='http://localhost\screenshot\loginCase\2020-01-06\1578291363286.jpg'height='100' width='100'><a href='http://localhost\screenshot\loginCase\2020-01-06\1578291363286.jpg' target='_blank'>点击查看大图</a></img></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ui自动化测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.loginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">login(, 123456, http://47.56.97.57:8098/#/login)</span>
+                <span class="method-start">9969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(admin, , http://47.56.97.57:8098/#/login)</span>
+                <span class="method-start">11059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(admin1, 123456, http://47.56.97.57:8098/#/login)</span>
+                <span class="method-start">11526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(admin, 123456789, http://47.56.97.57:8098/#/login1)</span>
+                <span class="method-start">11944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">login(, , http://47.56.97.57:8098/#/login1)</span>
+                <span class="method-start">21627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginTrue(admin1, 123456, http://47.56.97.57:8098/#/dashboard/dashbroad-index/sys-index)</span>
+                <span class="method-start">31258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40799 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
